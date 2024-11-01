@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DotCode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DotCode</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <!-- <header class="main-header">
+        <div class="navbar">
+            <img src="photo_2024-11-01_18-03-48.jpg"  alt="DotCode Logo" class="logo" >
+            <span class="brand-name">DotCode</span>
+            <!-- <nav>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#"><i class="search-icon">🔍</i></a>
+                <a href="#"><i class="user-icon">👤</i></a>
+                <a href="#"><i class="cart-icon">🛒</i></a>
+            </nav> -->
+        <!-- </div>
+        <div class="offer-section">
+            <h1>Buy Any Handwritten Notes at <span class="highlight">Rs. 99/-</span> Only!</h1>
+            <p class="special-offer">Navratri Special Offer 🎉</p>
+            <!-- <div class="search-bar">
+                <input type="text" placeholder="Search Ebook...">
+                <button class="search-button">🔍</button>
+            </div>
+            <button class="browse-button">Browse All E-Books ➔</button>
+        </div>
+    </header> -->
+</body>
+</html>
+    <div class="course-container">
+        <!-- Course Cards -->
+        <div class="course-card" onclick="openTelegram('latest sigma 5.0')">
+            <img src="sigma 5.0.jpg" alt="sigma 5.0">
+            <h3>SIGMA 5.0</h3> <br>
+            <p class="price"><s>₹8,499</s> &nbsp; ₹800</p>
+            <button onclick="openTelegram('sigma 5.0')">Buy</button>
+        </div>
+        <div class="course-card" onclick="openTelegram('sigma 4.0')">
+            <img src="sigma 4.0.jpg" alt="sigma 4.0">
+            <h3>SIGMA 4.0</h3> <br>
+            <p class="price"><s>₹8,999</s> &nbsp;₹700.</p>
+            <button onclick="openTelegram('sigma 4.0')">Buy</button>
+        </div>
+        <div class="course-card" onclick="openTelegram('sigma 3.0')">
+            <img src="sigma 3.0.jpg" alt="sigma 3.0">
+            <h3>SIGMA 3.0</h3> <br>
+            <p class="price"><s>₹8,999</s> &nbsp;₹600.</p>
+            <button onclick="openTelegram('sigma 3.0')">Buy</button>
+        </div>
+        <div class="course-card" onclick="openTelegram('Delta 5.0')">
+            <img src="delta 5.0.jpg" alt="Delta 5.0">
+            <h3>DELTA 5.0</h3> <br>
+            <p class="price"><s>₹8,999</s> &nbsp;₹800.</p>
+            <button onclick="openTelegram('Delta 5.0')">Buy</button>
+        </div> 
+        <div class="course-card" onclick="openTelegram('alpha plus 4.0')">
+            <img src="alpha plus 4.0.jpg" alt="alpha plus 4.0">
+            <h3>ALPHA PLUS 4.0</h3> <br>
+            <p class="price"><s>₹8,999</s> &nbsp;₹800.</p>
+            <button onclick="openTelegram('alpha plus 4.0')">Buy</button>
+        </div>
+        <div class="course-card" onclick="openTelegram('alpha plus 3.0')">
+            <img src="alpha plus 3.0.jpg" alt="alpha plus 3.0">
+            <h3>ALPHA PLUS 3.0</h3> <br>
+            <p class="price"><s>₹8,999</s> &nbsp;₹600.</p>
+            <button onclick="openTelegram('alpha plus 3.0')">Buy</button>
+        </div>
+        <div class="course-card" onclick="openTelegram('cpp dsa')">
+            <img src="cpp  dsa.png" alt="cpp dsa">
+            <h3>CPP DSA</h3> <br>
+            <p class="price"><s>₹8,999</s> &nbsp;₹900.</p>
+            <button onclick="openTelegram('cpp dsa')">Buy</button>
+        </div>
+        <div class="course-card" onclick="openTelegram('delta batch')">
+            <img src="delta batch.jpg" alt="delta batch">
+            <h3>DELTA BATCH</h3> <br>
+            <p class="price"><s>₹8,999</s> &nbsp;₹500.</p>
+            <button onclick="openTelegram('delta batch')">Buy</button>
+        </div>
+        <!-- Add 8 more courses as needed -->
+    </div>
+    <script>
+        function openTelegram(courseName) {
+            const url = `https://t.me/coursesdotcode?text=Hello!%20I%20am%20interested%20in%20the%20${encodeURIComponent(courseName)}%20course.%20can%20you%20give%20me%20more%20information%20on%20this`;
+            window.location.href = url;
+        }
+    </script>
+</body>
+<!-- Footer Section -->
+<footer class="footer">
+
+    <div class="note" >
+        <p> note: you will get every course in drive, and I will give you drive access before payment so you don't have to worry about any scam or fraud.</p>
+    </div> <br> <br>
+    <div class="footer-icons">
+        </a>
+        <a href="https://t.me/coursesdotcode" target="_blank">
+            <img src="telegram2.webp" alt="Telegram"> 
+           
+        </a>
+        </a>
+    </div>
+
+   
+
+    <div class="contact" >
+        <p> contact me here</p>
+    </div>
+
+</div>
+
+
+</footer>
+
+<style>
+    .footer {
+        background-color: #000000;
+        padding: 20px;
+        text-align: center;
+    }
+    .footer-icons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer-icons a img {
+        width: 30px;
+        height: 30px;
+        transition: transform 0.2s ease;
+    }
+    .footer-icons a img:hover {
+        transform: scale(1.1);
+    }
+    .footer-icons a img {
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+
+    
+</style>
+
+</html>
